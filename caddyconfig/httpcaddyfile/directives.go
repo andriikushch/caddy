@@ -51,6 +51,7 @@ var directiveOrder = []string{
 	"try_files",
 
 	// middleware handlers; some wrap responses
+	"opentelemetry",
 	"basicauth",
 	"request_header",
 	"encode",
